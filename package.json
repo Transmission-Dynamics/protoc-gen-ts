@@ -1,5 +1,5 @@
 {
-  "name": "protoc-gen-ts",
+  "name": "@Transmission-Dynamics/protoc-gen-ts",
   "description": "Compile protocol buffers descriptors to Typescript.",
   "version": "0.8.3",
   "license": "MIT",
@@ -14,14 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thesayyn/protoc-gen-ts"
+    "url": "https://github.com/Transmission-Dynamics/protoc-gen-ts.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@Transmission-Dynamics"
   },
   "scripts": {
     "test": "bazel test //...",
     "update_checked_in": "bazel query --noshow_progress 'attr(tags, \"checked_in_update\", //...)' | xargs -n 1 bazel run --ui_event_filters=-info,-stderr --noshow_progress",
     "update_checked_in_test": "bazel query --noshow_progress 'attr(tags, \"checked_in_update\", //test/...)' | xargs -n 1 bazel run --ui_event_filters=-info,-stderr --noshow_progress",
     "update_checked_in_src": "bazel query --noshow_progress 'attr(tags, \"checked_in_update\", //src/...)' | xargs -n 1 bazel run --ui_event_filters=-info,-stderr --noshow_progress",
-    "release": "bazel run //:package.publish -- --access public --tag latest --registry https://registry.npmjs.org"
+    "release": "bazel run //:package.publish -- --access public --tag latest --registry https://npm.pkg.github.com"
   },
   "bin": {
     "protoc-gen-ts": "./bin/protoc-gen-ts.js"
