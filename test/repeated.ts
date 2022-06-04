@@ -67,7 +67,7 @@ export class Repeated extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static deserializeBinary(bytes: Uint8Array): Repeated {
+    static override deserializeBinary(bytes: Uint8Array): Repeated {
         return Repeated.deserialize(bytes);
     }
 }

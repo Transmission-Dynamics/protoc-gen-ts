@@ -116,7 +116,7 @@ export namespace importdirective {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static deserializeBinary(bytes: Uint8Array): Message {
+        static override deserializeBinary(bytes: Uint8Array): Message {
             return Message.deserialize(bytes);
         }
     }

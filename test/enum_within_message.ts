@@ -91,7 +91,7 @@ export namespace main {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static deserializeBinary(bytes: Uint8Array): Code {
+        static override deserializeBinary(bytes: Uint8Array): Code {
             return Code.deserialize(bytes);
         }
     }

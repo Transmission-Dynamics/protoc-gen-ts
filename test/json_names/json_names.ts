@@ -233,7 +233,7 @@ export class JsonNamesMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static deserializeBinary(bytes: Uint8Array): JsonNamesMessage {
+    static override deserializeBinary(bytes: Uint8Array): JsonNamesMessage {
         return JsonNamesMessage.deserialize(bytes);
     }
 }
@@ -301,7 +301,7 @@ export namespace JsonNamesMessage {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static deserializeBinary(bytes: Uint8Array): NestedMessage {
+        static override deserializeBinary(bytes: Uint8Array): NestedMessage {
             return NestedMessage.deserialize(bytes);
         }
     }

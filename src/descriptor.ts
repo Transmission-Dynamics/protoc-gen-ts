@@ -1967,7 +1967,10 @@ function createDeserializeBinary(
 ): ts.ClassElement {
   return ts.factory.createMethodDeclaration(
     undefined,
-    [ts.factory.createModifier(ts.SyntaxKind.StaticKeyword)],
+    [
+      ts.factory.createModifier(ts.SyntaxKind.StaticKeyword),
+      ts.factory.createModifier(ts.SyntaxKind.OverrideKeyword)
+    ],
     undefined,
     ts.factory.createIdentifier("deserializeBinary"),
     undefined,

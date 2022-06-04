@@ -113,7 +113,7 @@ export class JSType extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static deserializeBinary(bytes: Uint8Array): JSType {
+    static override deserializeBinary(bytes: Uint8Array): JSType {
         return JSType.deserialize(bytes);
     }
 }

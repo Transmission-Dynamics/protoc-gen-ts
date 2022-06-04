@@ -67,7 +67,7 @@ export class MessageFields extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static deserializeBinary(bytes: Uint8Array): MessageFields {
+    static override deserializeBinary(bytes: Uint8Array): MessageFields {
         return MessageFields.deserialize(bytes);
     }
 }
