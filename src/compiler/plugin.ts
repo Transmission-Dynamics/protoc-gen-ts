@@ -137,7 +137,7 @@ export class Version extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Version {
+    static deserializeBinary(bytes: Uint8Array): Version {
         return Version.deserialize(bytes);
     }
 }
@@ -263,7 +263,7 @@ export class CodeGeneratorRequest extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): CodeGeneratorRequest {
+    static deserializeBinary(bytes: Uint8Array): CodeGeneratorRequest {
         return CodeGeneratorRequest.deserialize(bytes);
     }
 }
@@ -372,7 +372,7 @@ export class CodeGeneratorResponse extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): CodeGeneratorResponse {
+    static deserializeBinary(bytes: Uint8Array): CodeGeneratorResponse {
         return CodeGeneratorResponse.deserialize(bytes);
     }
 }
@@ -513,7 +513,7 @@ export namespace CodeGeneratorResponse {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): File {
+        static deserializeBinary(bytes: Uint8Array): File {
             return File.deserialize(bytes);
         }
     }

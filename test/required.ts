@@ -80,7 +80,7 @@ export class NoOptionalValues extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): NoOptionalValues {
+    static deserializeBinary(bytes: Uint8Array): NoOptionalValues {
         return NoOptionalValues.deserialize(bytes);
     }
 }

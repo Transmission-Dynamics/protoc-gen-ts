@@ -68,7 +68,7 @@ export class Chunk extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Chunk {
+    static deserializeBinary(bytes: Uint8Array): Chunk {
         return Chunk.deserialize(bytes);
     }
 }
@@ -135,7 +135,7 @@ export class Result extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Result {
+    static deserializeBinary(bytes: Uint8Array): Result {
         return Result.deserialize(bytes);
     }
 }

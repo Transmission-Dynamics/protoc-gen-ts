@@ -144,7 +144,7 @@ export class MessageName extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): MessageName {
+    static deserializeBinary(bytes: Uint8Array): MessageName {
         return MessageName.deserialize(bytes);
     }
 }
@@ -185,7 +185,7 @@ export class MessageName2 extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): MessageName2 {
+    static deserializeBinary(bytes: Uint8Array): MessageName2 {
         return MessageName2.deserialize(bytes);
     }
 }

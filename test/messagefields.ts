@@ -90,7 +90,7 @@ export class MessageFields extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): MessageFields {
+    static deserializeBinary(bytes: Uint8Array): MessageFields {
         return MessageFields.deserialize(bytes);
     }
 }
@@ -180,7 +180,7 @@ export class SubMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): SubMessage {
+    static deserializeBinary(bytes: Uint8Array): SubMessage {
         return SubMessage.deserialize(bytes);
     }
 }

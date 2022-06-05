@@ -41,7 +41,7 @@ export class None extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): None {
+    static deserializeBinary(bytes: Uint8Array): None {
         return None.deserialize(bytes);
     }
 }
@@ -154,7 +154,7 @@ export class _Object extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): _Object {
+    static deserializeBinary(bytes: Uint8Array): _Object {
         return _Object.deserialize(bytes);
     }
 }
@@ -244,7 +244,7 @@ export class Chunk extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Chunk {
+    static deserializeBinary(bytes: Uint8Array): Chunk {
         return Chunk.deserialize(bytes);
     }
 }
@@ -335,7 +335,7 @@ export namespace Chunk {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): Range {
+        static deserializeBinary(bytes: Uint8Array): Range {
             return Range.deserialize(bytes);
         }
     }
@@ -425,7 +425,7 @@ export namespace Chunk {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): Query {
+        static deserializeBinary(bytes: Uint8Array): Query {
             return Query.deserialize(bytes);
         }
     }
@@ -493,7 +493,7 @@ export class Query extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Query {
+    static deserializeBinary(bytes: Uint8Array): Query {
         return Query.deserialize(bytes);
     }
 }
@@ -561,7 +561,7 @@ export namespace Query {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): Result {
+        static deserializeBinary(bytes: Uint8Array): Result {
             return Result.deserialize(bytes);
         }
     }
@@ -652,7 +652,7 @@ export class Put extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Put {
+    static deserializeBinary(bytes: Uint8Array): Put {
         return Put.deserialize(bytes);
     }
 }

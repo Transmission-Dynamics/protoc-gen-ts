@@ -42,7 +42,7 @@ export namespace main {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): Message {
+        static deserializeBinary(bytes: Uint8Array): Message {
             return Message.deserialize(bytes);
         }
     }
@@ -82,7 +82,7 @@ export namespace main {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): MessageResult {
+        static deserializeBinary(bytes: Uint8Array): MessageResult {
             return MessageResult.deserialize(bytes);
         }
     }

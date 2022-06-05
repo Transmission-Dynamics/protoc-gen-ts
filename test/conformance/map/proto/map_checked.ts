@@ -68,7 +68,7 @@ export namespace maps {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): Topic {
+        static deserializeBinary(bytes: Uint8Array): Topic {
             return Topic.deserialize(bytes);
         }
     }
@@ -242,7 +242,7 @@ export namespace maps {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): Tags {
+        static deserializeBinary(bytes: Uint8Array): Tags {
             return Tags.deserialize(bytes);
         }
     }

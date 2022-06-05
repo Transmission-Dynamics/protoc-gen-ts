@@ -63,7 +63,7 @@ export class FileDescriptorSet extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): FileDescriptorSet {
+    static deserializeBinary(bytes: Uint8Array): FileDescriptorSet {
         return FileDescriptorSet.deserialize(bytes);
     }
 }
@@ -343,7 +343,7 @@ export class FileDescriptorProto extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): FileDescriptorProto {
+    static deserializeBinary(bytes: Uint8Array): FileDescriptorProto {
         return FileDescriptorProto.deserialize(bytes);
     }
 }
@@ -571,7 +571,7 @@ export class DescriptorProto extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): DescriptorProto {
+    static deserializeBinary(bytes: Uint8Array): DescriptorProto {
         return DescriptorProto.deserialize(bytes);
     }
 }
@@ -685,7 +685,7 @@ export namespace DescriptorProto {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): ExtensionRange {
+        static deserializeBinary(bytes: Uint8Array): ExtensionRange {
             return ExtensionRange.deserialize(bytes);
         }
     }
@@ -775,7 +775,7 @@ export namespace DescriptorProto {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): ReservedRange {
+        static deserializeBinary(bytes: Uint8Array): ReservedRange {
             return ReservedRange.deserialize(bytes);
         }
     }
@@ -839,7 +839,7 @@ export class ExtensionRangeOptions extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): ExtensionRangeOptions {
+    static deserializeBinary(bytes: Uint8Array): ExtensionRangeOptions {
         return ExtensionRangeOptions.deserialize(bytes);
     }
 }
@@ -1136,7 +1136,7 @@ export class FieldDescriptorProto extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): FieldDescriptorProto {
+    static deserializeBinary(bytes: Uint8Array): FieldDescriptorProto {
         return FieldDescriptorProto.deserialize(bytes);
     }
 }
@@ -1253,7 +1253,7 @@ export class OneofDescriptorProto extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): OneofDescriptorProto {
+    static deserializeBinary(bytes: Uint8Array): OneofDescriptorProto {
         return OneofDescriptorProto.deserialize(bytes);
     }
 }
@@ -1396,7 +1396,7 @@ export class EnumDescriptorProto extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): EnumDescriptorProto {
+    static deserializeBinary(bytes: Uint8Array): EnumDescriptorProto {
         return EnumDescriptorProto.deserialize(bytes);
     }
 }
@@ -1487,7 +1487,7 @@ export namespace EnumDescriptorProto {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): EnumReservedRange {
+        static deserializeBinary(bytes: Uint8Array): EnumReservedRange {
             return EnumReservedRange.deserialize(bytes);
         }
     }
@@ -1601,7 +1601,7 @@ export class EnumValueDescriptorProto extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): EnumValueDescriptorProto {
+    static deserializeBinary(bytes: Uint8Array): EnumValueDescriptorProto {
         return EnumValueDescriptorProto.deserialize(bytes);
     }
 }
@@ -1710,7 +1710,7 @@ export class ServiceDescriptorProto extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): ServiceDescriptorProto {
+    static deserializeBinary(bytes: Uint8Array): ServiceDescriptorProto {
         return ServiceDescriptorProto.deserialize(bytes);
     }
 }
@@ -1892,7 +1892,7 @@ export class MethodDescriptorProto extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): MethodDescriptorProto {
+    static deserializeBinary(bytes: Uint8Array): MethodDescriptorProto {
         return MethodDescriptorProto.deserialize(bytes);
     }
 }
@@ -2418,7 +2418,7 @@ export class FileOptions extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): FileOptions {
+    static deserializeBinary(bytes: Uint8Array): FileOptions {
         return FileOptions.deserialize(bytes);
     }
 }
@@ -2580,7 +2580,7 @@ export class MessageOptions extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): MessageOptions {
+    static deserializeBinary(bytes: Uint8Array): MessageOptions {
         return MessageOptions.deserialize(bytes);
     }
 }
@@ -2781,7 +2781,7 @@ export class FieldOptions extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): FieldOptions {
+    static deserializeBinary(bytes: Uint8Array): FieldOptions {
         return FieldOptions.deserialize(bytes);
     }
 }
@@ -2856,7 +2856,7 @@ export class OneofOptions extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): OneofOptions {
+    static deserializeBinary(bytes: Uint8Array): OneofOptions {
         return OneofOptions.deserialize(bytes);
     }
 }
@@ -2965,7 +2965,7 @@ export class EnumOptions extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): EnumOptions {
+    static deserializeBinary(bytes: Uint8Array): EnumOptions {
         return EnumOptions.deserialize(bytes);
     }
 }
@@ -3051,7 +3051,7 @@ export class EnumValueOptions extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): EnumValueOptions {
+    static deserializeBinary(bytes: Uint8Array): EnumValueOptions {
         return EnumValueOptions.deserialize(bytes);
     }
 }
@@ -3137,7 +3137,7 @@ export class ServiceOptions extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): ServiceOptions {
+    static deserializeBinary(bytes: Uint8Array): ServiceOptions {
         return ServiceOptions.deserialize(bytes);
     }
 }
@@ -3246,7 +3246,7 @@ export class MethodOptions extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): MethodOptions {
+    static deserializeBinary(bytes: Uint8Array): MethodOptions {
         return MethodOptions.deserialize(bytes);
     }
 }
@@ -3454,7 +3454,7 @@ export class UninterpretedOption extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): UninterpretedOption {
+    static deserializeBinary(bytes: Uint8Array): UninterpretedOption {
         return UninterpretedOption.deserialize(bytes);
     }
 }
@@ -3535,7 +3535,7 @@ export namespace UninterpretedOption {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): NamePart {
+        static deserializeBinary(bytes: Uint8Array): NamePart {
             return NamePart.deserialize(bytes);
         }
     }
@@ -3599,7 +3599,7 @@ export class SourceCodeInfo extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): SourceCodeInfo {
+    static deserializeBinary(bytes: Uint8Array): SourceCodeInfo {
         return SourceCodeInfo.deserialize(bytes);
     }
 }
@@ -3743,7 +3743,7 @@ export namespace SourceCodeInfo {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): Location {
+        static deserializeBinary(bytes: Uint8Array): Location {
             return Location.deserialize(bytes);
         }
     }
@@ -3807,7 +3807,7 @@ export class GeneratedCodeInfo extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): GeneratedCodeInfo {
+    static deserializeBinary(bytes: Uint8Array): GeneratedCodeInfo {
         return GeneratedCodeInfo.deserialize(bytes);
     }
 }
@@ -3940,7 +3940,7 @@ export namespace GeneratedCodeInfo {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): Annotation {
+        static deserializeBinary(bytes: Uint8Array): Annotation {
             return Annotation.deserialize(bytes);
         }
     }

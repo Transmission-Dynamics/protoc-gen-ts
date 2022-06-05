@@ -122,7 +122,7 @@ export class SchedulingContext extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): SchedulingContext {
+    static deserializeBinary(bytes: Uint8Array): SchedulingContext {
         return SchedulingContext.deserialize(bytes);
     }
 }
@@ -212,7 +212,7 @@ export class SchedulingContextEnv extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): SchedulingContextEnv {
+    static deserializeBinary(bytes: Uint8Array): SchedulingContextEnv {
         return SchedulingContextEnv.deserialize(bytes);
     }
 }
@@ -325,7 +325,7 @@ export class SchedulingContextBatch extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): SchedulingContextBatch {
+    static deserializeBinary(bytes: Uint8Array): SchedulingContextBatch {
         return SchedulingContextBatch.deserialize(bytes);
     }
 }
@@ -392,7 +392,7 @@ export class SchedulingContextBatchProcess extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): SchedulingContextBatchProcess {
+    static deserializeBinary(bytes: Uint8Array): SchedulingContextBatchProcess {
         return SchedulingContextBatchProcess.deserialize(bytes);
     }
 }
@@ -528,7 +528,7 @@ export class Target extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Target {
+    static deserializeBinary(bytes: Uint8Array): Target {
         return Target.deserialize(bytes);
     }
 }
@@ -641,7 +641,7 @@ export class Event extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Event {
+    static deserializeBinary(bytes: Uint8Array): Event {
         return Event.deserialize(bytes);
     }
 }
@@ -708,7 +708,7 @@ export class Pop extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Pop {
+    static deserializeBinary(bytes: Uint8Array): Pop {
         return Pop.deserialize(bytes);
     }
 }
@@ -775,7 +775,7 @@ export class Complete extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Complete {
+    static deserializeBinary(bytes: Uint8Array): Complete {
         return Complete.deserialize(bytes);
     }
 }
@@ -815,7 +815,7 @@ export class CompleteResult extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): CompleteResult {
+    static deserializeBinary(bytes: Uint8Array): CompleteResult {
         return CompleteResult.deserialize(bytes);
     }
 }

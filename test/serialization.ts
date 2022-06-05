@@ -67,7 +67,7 @@ export class Serialization extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Serialization {
+    static deserializeBinary(bytes: Uint8Array): Serialization {
         return Serialization.deserialize(bytes);
     }
 }

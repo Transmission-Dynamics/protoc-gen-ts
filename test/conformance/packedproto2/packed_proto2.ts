@@ -90,7 +90,7 @@ export class HydratedQuickReplyButton extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): HydratedQuickReplyButton {
+    static deserializeBinary(bytes: Uint8Array): HydratedQuickReplyButton {
         return HydratedQuickReplyButton.deserialize(bytes);
     }
 }
@@ -180,7 +180,7 @@ export class HydratedURLButton extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): HydratedURLButton {
+    static deserializeBinary(bytes: Uint8Array): HydratedURLButton {
         return HydratedURLButton.deserialize(bytes);
     }
 }
@@ -270,7 +270,7 @@ export class HydratedCallButton extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): HydratedCallButton {
+    static deserializeBinary(bytes: Uint8Array): HydratedCallButton {
         return HydratedCallButton.deserialize(bytes);
     }
 }
@@ -426,7 +426,7 @@ export class HydratedTemplateButton extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): HydratedTemplateButton {
+    static deserializeBinary(bytes: Uint8Array): HydratedTemplateButton {
         return HydratedTemplateButton.deserialize(bytes);
     }
 }
@@ -516,7 +516,7 @@ export class QuickReplyButton extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): QuickReplyButton {
+    static deserializeBinary(bytes: Uint8Array): QuickReplyButton {
         return QuickReplyButton.deserialize(bytes);
     }
 }
@@ -606,7 +606,7 @@ export class URLButton extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): URLButton {
+    static deserializeBinary(bytes: Uint8Array): URLButton {
         return URLButton.deserialize(bytes);
     }
 }
@@ -696,7 +696,7 @@ export class CallButton extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): CallButton {
+    static deserializeBinary(bytes: Uint8Array): CallButton {
         return CallButton.deserialize(bytes);
     }
 }
@@ -852,7 +852,7 @@ export class TemplateButton extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): TemplateButton {
+    static deserializeBinary(bytes: Uint8Array): TemplateButton {
         return TemplateButton.deserialize(bytes);
     }
 }
@@ -965,7 +965,7 @@ export class Location extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Location {
+    static deserializeBinary(bytes: Uint8Array): Location {
         return Location.deserialize(bytes);
     }
 }
@@ -1101,7 +1101,7 @@ export class Point extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Point {
+    static deserializeBinary(bytes: Uint8Array): Point {
         return Point.deserialize(bytes);
     }
 }
@@ -1197,7 +1197,7 @@ export class InteractiveAnnotation extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): InteractiveAnnotation {
+    static deserializeBinary(bytes: Uint8Array): InteractiveAnnotation {
         return InteractiveAnnotation.deserialize(bytes);
     }
 }
@@ -1333,7 +1333,7 @@ export class AdReplyInfo extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): AdReplyInfo {
+    static deserializeBinary(bytes: Uint8Array): AdReplyInfo {
         return AdReplyInfo.deserialize(bytes);
     }
 }
@@ -1725,7 +1725,7 @@ export class ContextInfo extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): ContextInfo {
+    static deserializeBinary(bytes: Uint8Array): ContextInfo {
         return ContextInfo.deserialize(bytes);
     }
 }
@@ -1815,7 +1815,7 @@ export class SenderKeyDistributionMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): SenderKeyDistributionMessage {
+    static deserializeBinary(bytes: Uint8Array): SenderKeyDistributionMessage {
         return SenderKeyDistributionMessage.deserialize(bytes);
     }
 }
@@ -2332,7 +2332,7 @@ export class ImageMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): ImageMessage {
+    static deserializeBinary(bytes: Uint8Array): ImageMessage {
         return ImageMessage.deserialize(bytes);
     }
 }
@@ -2445,7 +2445,7 @@ export class ContactMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): ContactMessage {
+    static deserializeBinary(bytes: Uint8Array): ContactMessage {
         return ContactMessage.deserialize(bytes);
     }
 }
@@ -2765,7 +2765,7 @@ export class LocationMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): LocationMessage {
+    static deserializeBinary(bytes: Uint8Array): LocationMessage {
         return LocationMessage.deserialize(bytes);
     }
 }
@@ -3085,7 +3085,7 @@ export class ExtendedTextMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): ExtendedTextMessage {
+    static deserializeBinary(bytes: Uint8Array): ExtendedTextMessage {
         return ExtendedTextMessage.deserialize(bytes);
     }
 }
@@ -3442,7 +3442,7 @@ export class DocumentMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): DocumentMessage {
+    static deserializeBinary(bytes: Uint8Array): DocumentMessage {
         return DocumentMessage.deserialize(bytes);
     }
 }
@@ -3762,7 +3762,7 @@ export class AudioMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): AudioMessage {
+    static deserializeBinary(bytes: Uint8Array): AudioMessage {
         return AudioMessage.deserialize(bytes);
     }
 }
@@ -4216,7 +4216,7 @@ export class VideoMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): VideoMessage {
+    static deserializeBinary(bytes: Uint8Array): VideoMessage {
         return VideoMessage.deserialize(bytes);
     }
 }
@@ -4290,7 +4290,7 @@ export class Call extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Call {
+    static deserializeBinary(bytes: Uint8Array): Call {
         return Call.deserialize(bytes);
     }
 }
@@ -4380,7 +4380,7 @@ export class Chat extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Chat {
+    static deserializeBinary(bytes: Uint8Array): Chat {
         return Chat.deserialize(bytes);
     }
 }
@@ -4539,7 +4539,7 @@ export class ProtocolMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): ProtocolMessage {
+    static deserializeBinary(bytes: Uint8Array): ProtocolMessage {
         return ProtocolMessage.deserialize(bytes);
     }
 }
@@ -4775,7 +4775,7 @@ export class HistorySyncNotification extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): HistorySyncNotification {
+    static deserializeBinary(bytes: Uint8Array): HistorySyncNotification {
         return HistorySyncNotification.deserialize(bytes);
     }
 }
@@ -4893,7 +4893,7 @@ export class ContactsArrayMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): ContactsArrayMessage {
+    static deserializeBinary(bytes: Uint8Array): ContactsArrayMessage {
         return ContactsArrayMessage.deserialize(bytes);
     }
 }
@@ -4983,7 +4983,7 @@ export class HSMCurrency extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): HSMCurrency {
+    static deserializeBinary(bytes: Uint8Array): HSMCurrency {
         return HSMCurrency.deserialize(bytes);
     }
 }
@@ -5188,7 +5188,7 @@ export class HSMDateTimeComponent extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): HSMDateTimeComponent {
+    static deserializeBinary(bytes: Uint8Array): HSMDateTimeComponent {
         return HSMDateTimeComponent.deserialize(bytes);
     }
 }
@@ -5270,7 +5270,7 @@ export class HSMDateTimeUnixEpoch extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): HSMDateTimeUnixEpoch {
+    static deserializeBinary(bytes: Uint8Array): HSMDateTimeUnixEpoch {
         return HSMDateTimeUnixEpoch.deserialize(bytes);
     }
 }
@@ -5373,7 +5373,7 @@ export class HSMDateTime extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): HSMDateTime {
+    static deserializeBinary(bytes: Uint8Array): HSMDateTime {
         return HSMDateTime.deserialize(bytes);
     }
 }
@@ -5500,7 +5500,7 @@ export class HSMLocalizableParameter extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): HSMLocalizableParameter {
+    static deserializeBinary(bytes: Uint8Array): HSMLocalizableParameter {
         return HSMLocalizableParameter.deserialize(bytes);
     }
 }
@@ -5741,7 +5741,7 @@ export class HighlyStructuredMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): HighlyStructuredMessage {
+    static deserializeBinary(bytes: Uint8Array): HighlyStructuredMessage {
         return HighlyStructuredMessage.deserialize(bytes);
     }
 }
@@ -5831,7 +5831,7 @@ export class SendPaymentMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): SendPaymentMessage {
+    static deserializeBinary(bytes: Uint8Array): SendPaymentMessage {
         return SendPaymentMessage.deserialize(bytes);
     }
 }
@@ -5990,7 +5990,7 @@ export class RequestPaymentMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): RequestPaymentMessage {
+    static deserializeBinary(bytes: Uint8Array): RequestPaymentMessage {
         return RequestPaymentMessage.deserialize(bytes);
     }
 }
@@ -6057,7 +6057,7 @@ export class DeclinePaymentRequestMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): DeclinePaymentRequestMessage {
+    static deserializeBinary(bytes: Uint8Array): DeclinePaymentRequestMessage {
         return DeclinePaymentRequestMessage.deserialize(bytes);
     }
 }
@@ -6124,7 +6124,7 @@ export class CancelPaymentRequestMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): CancelPaymentRequestMessage {
+    static deserializeBinary(bytes: Uint8Array): CancelPaymentRequestMessage {
         return CancelPaymentRequestMessage.deserialize(bytes);
     }
 }
@@ -6398,7 +6398,7 @@ export class LiveLocationMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): LiveLocationMessage {
+    static deserializeBinary(bytes: Uint8Array): LiveLocationMessage {
         return LiveLocationMessage.deserialize(bytes);
     }
 }
@@ -6787,7 +6787,7 @@ export class StickerMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): StickerMessage {
+    static deserializeBinary(bytes: Uint8Array): StickerMessage {
         return StickerMessage.deserialize(bytes);
     }
 }
@@ -7049,7 +7049,7 @@ export class FourRowTemplate extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): FourRowTemplate {
+    static deserializeBinary(bytes: Uint8Array): FourRowTemplate {
         return FourRowTemplate.deserialize(bytes);
     }
 }
@@ -7334,7 +7334,7 @@ export class HydratedFourRowTemplate extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): HydratedFourRowTemplate {
+    static deserializeBinary(bytes: Uint8Array): HydratedFourRowTemplate {
         return HydratedFourRowTemplate.deserialize(bytes);
     }
 }
@@ -7484,7 +7484,7 @@ export class TemplateMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): TemplateMessage {
+    static deserializeBinary(bytes: Uint8Array): TemplateMessage {
         return TemplateMessage.deserialize(bytes);
     }
 }
@@ -7620,7 +7620,7 @@ export class TemplateButtonReplyMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): TemplateButtonReplyMessage {
+    static deserializeBinary(bytes: Uint8Array): TemplateButtonReplyMessage {
         return TemplateButtonReplyMessage.deserialize(bytes);
     }
 }
@@ -7733,7 +7733,7 @@ export class CatalogSnapshot extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): CatalogSnapshot {
+    static deserializeBinary(bytes: Uint8Array): CatalogSnapshot {
         return CatalogSnapshot.deserialize(bytes);
     }
 }
@@ -8007,7 +8007,7 @@ export class ProductSnapshot extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): ProductSnapshot {
+    static deserializeBinary(bytes: Uint8Array): ProductSnapshot {
         return ProductSnapshot.deserialize(bytes);
     }
 }
@@ -8143,7 +8143,7 @@ export class ProductMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): ProductMessage {
+    static deserializeBinary(bytes: Uint8Array): ProductMessage {
         return ProductMessage.deserialize(bytes);
     }
 }
@@ -8348,7 +8348,7 @@ export class GroupInviteMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): GroupInviteMessage {
+    static deserializeBinary(bytes: Uint8Array): GroupInviteMessage {
         return GroupInviteMessage.deserialize(bytes);
     }
 }
@@ -8461,7 +8461,7 @@ export class DeviceSentMessage extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): DeviceSentMessage {
+    static deserializeBinary(bytes: Uint8Array): DeviceSentMessage {
         return DeviceSentMessage.deserialize(bytes);
     }
 }
@@ -9103,7 +9103,7 @@ export class Message extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Message {
+    static deserializeBinary(bytes: Uint8Array): Message {
         return Message.deserialize(bytes);
     }
 }
@@ -9239,7 +9239,7 @@ export class MessageKey extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): MessageKey {
+    static deserializeBinary(bytes: Uint8Array): MessageKey {
         return MessageKey.deserialize(bytes);
     }
 }
@@ -10042,7 +10042,7 @@ export class WebFeatures extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): WebFeatures {
+    static deserializeBinary(bytes: Uint8Array): WebFeatures {
         return WebFeatures.deserialize(bytes);
     }
 }
@@ -10182,7 +10182,7 @@ export class TabletNotificationsInfo extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): TabletNotificationsInfo {
+    static deserializeBinary(bytes: Uint8Array): TabletNotificationsInfo {
         return TabletNotificationsInfo.deserialize(bytes);
     }
 }
@@ -10318,7 +10318,7 @@ export class NotificationMessageInfo extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): NotificationMessageInfo {
+    static deserializeBinary(bytes: Uint8Array): NotificationMessageInfo {
         return NotificationMessageInfo.deserialize(bytes);
     }
 }
@@ -10450,7 +10450,7 @@ export class WebNotificationsInfo extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): WebNotificationsInfo {
+    static deserializeBinary(bytes: Uint8Array): WebNotificationsInfo {
         return WebNotificationsInfo.deserialize(bytes);
     }
 }
@@ -10724,7 +10724,7 @@ export class PaymentInfo extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): PaymentInfo {
+    static deserializeBinary(bytes: Uint8Array): PaymentInfo {
         return PaymentInfo.deserialize(bytes);
     }
 }
@@ -11354,7 +11354,7 @@ export class WebMessageInfo extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): WebMessageInfo {
+    static deserializeBinary(bytes: Uint8Array): WebMessageInfo {
         return WebMessageInfo.deserialize(bytes);
     }
 }

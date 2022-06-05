@@ -228,7 +228,7 @@ export class Integers extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Integers {
+    static deserializeBinary(bytes: Uint8Array): Integers {
         return Integers.deserialize(bytes);
     }
 }

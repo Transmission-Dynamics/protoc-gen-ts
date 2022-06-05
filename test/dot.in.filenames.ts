@@ -68,7 +68,7 @@ export namespace dot {
         serializeBinary(): Uint8Array {
             return this.serialize();
         }
-        static override deserializeBinary(bytes: Uint8Array): Message {
+        static deserializeBinary(bytes: Uint8Array): Message {
             return Message.deserialize(bytes);
         }
     }

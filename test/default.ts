@@ -113,7 +113,7 @@ export class MessageWithDefault extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): MessageWithDefault {
+    static deserializeBinary(bytes: Uint8Array): MessageWithDefault {
         return MessageWithDefault.deserialize(bytes);
     }
 }

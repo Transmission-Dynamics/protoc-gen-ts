@@ -68,7 +68,7 @@ export class Topic extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Topic {
+    static deserializeBinary(bytes: Uint8Array): Topic {
         return Topic.deserialize(bytes);
     }
 }
@@ -275,7 +275,7 @@ export class Tags extends pb_1.Message {
     serializeBinary(): Uint8Array {
         return this.serialize();
     }
-    static override deserializeBinary(bytes: Uint8Array): Tags {
+    static deserializeBinary(bytes: Uint8Array): Tags {
         return Tags.deserialize(bytes);
     }
 }
