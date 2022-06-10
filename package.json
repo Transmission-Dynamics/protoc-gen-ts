@@ -1,7 +1,7 @@
 {
   "name": "@Transmission-Dynamics/protoc-gen-ts",
   "description": "Compile protocol buffers descriptors to Typescript.",
-  "version": "0.8.9",
+  "version": "0.8.10",
   "license": "MIT",
   "author": {
     "email": "thesayyn@gmail.com",
